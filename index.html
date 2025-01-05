@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montrian</title>
+<style>
+ body{ 
+    display:  flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+.container{
+    display: grid;
+grid-template-columns: 60px 260px 228px 200px; 
+grid-template-rows: 320px 150px 248px 30px;
+gap: 9px;
+background-color:  #000;
+}
+.item{
+    background-color: #F0F1EC;
+}
+.red{
+    background-color: red;
+    grid-column: span 2;
+}
+.hite1{
+    grid-column: span 2;
+}
+.hite2{
+    grid-column: span 2;
+}
+.hite3{
+    grid-column: span 2;
+}
+.yello{
+    background-color: yellow;
+    grid-row: span 2;
+}
+.hite4{
+    grid-row: span 2;
+}
+.blue{
+    background-color: blue;
+}
+.hite6{
+    grid-area: 3/4/5/5;
+}
+</style>
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="item red"></div>
+        <div class="item hite1"></div>
+        <div class="item hite2"></div>
+        <div class="item hite3"></div>
+    
+        <div class="item yello"></div>
+        <div class="item hite4"></div>
+    
+        <div class="item blue"></div>
+        <div class="item hite5"></div>
+        <div class="item hite6"></div>
+      </div>
+
+</body>
+</html>
